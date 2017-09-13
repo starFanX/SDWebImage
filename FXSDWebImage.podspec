@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = 'SDWebImage'
-s.version          = '0.0.1'
-s.summary          = 'A short description of SDWebImage.'
+s.name             = 'FXSDWebImage'
+s.version          = '0.0.2'
+s.summary          = 'sunland用的SDWebImage'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'www.baijiacloud.com'
+s.homepage         = 'www.sunland.com'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'fanxing' => 'fanxing@sunland.com' }
-s.source           = { :git => 'https://github.com/starFanX/SDWebImage', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/starFanX/SDWebImage.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'SDWebImage/**/*'
+s.source_files = 'FXSDWebImage/**/*'
 
 # s.resource_bundles = {
 #   'SDWebImage' => ['SDWebImage/Assets/*.png']
